@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: rgba(133, 133, 133, 0.1);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.App{
+ display: flex;
+}
+.sidebar{
+  width: 25%;
+  background-color: white;
+  height: 100vh;
+  border-right: 2px solid rgba(133, 133, 133, 0.2);
+} 
+
+.side-btn{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  border-bottom: 2px solid rgba(133, 133, 133, 0.2);
+}
+
+.side-btn:hover,.side-btn:focus {
+  background-color: rgba(133, 133, 133, 0.3);
+}
+
+.content{
+  margin: auto;
+}
